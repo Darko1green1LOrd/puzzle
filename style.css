@@ -668,7 +668,7 @@ Puzzle
 /*Num Display*/
 .num_display > input {
     display: inline-block;
-    font-size: 3vw;
+    font-size: 10vmin;
     font-weight: 1000;
     margin: 0px;
 }
@@ -698,10 +698,10 @@ Puzzle
 }
 
 .num_keypad > button {
-    font-size: 2vw;
+    font-size: 6vmin;
     font-weight: 1000;
-    height: 4vw;
-    width: 4vw;
+    height: 10vmin;
+    width: 10vmin;
 }
 
 #keypad_btn_c {
