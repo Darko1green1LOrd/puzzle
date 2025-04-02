@@ -62,7 +62,7 @@ function runonload(){
     disableSpellcheck();
     try{get_saved_data();}
     catch (e){console.log("Failed to load saved data from url  "+e);}
-    changeicon("favicon.ico");
+    changeicon("favicon.svg");
     setup_ChangeDetectors();
     changetheme();
     settingChanged(ge("huer_s"));
