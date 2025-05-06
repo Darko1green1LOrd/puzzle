@@ -151,7 +151,8 @@ function runonload(){
     async function check_pw(pw,callback){
         ge("keypad_btn_c").disabled = true;
         ge("keypad_btn_ok").disabled = true;
-        let reqdata = await fetch("https://script.google.com/macros/s/AKfycbzXyHW4RWypBSmMshUrPV4KC4QVWWaNdq5Tfky5DEbWyUGC4nLwrdmPw4LvhOjKgaog/exec", {
+        change_btns(true);
+        let reqdata = await fetch("https://script.google.com/macros/s/AKfycbzyH2xiwcZrpaeX6_Mn0_LIBHxhhmkLNksWIaHXsyn8Ifq-GCxsvqwh_p8VukUP6niz/exec", {
             redirect: "follow",
             method: "POST",
             body: JSON.stringify({
@@ -175,6 +176,7 @@ function runonload(){
             showmsg("Unknown Error",json_resp);
         }
         set_buttons_state();
+        change_btns(false);
     }
 
     function process_function(process_var){
