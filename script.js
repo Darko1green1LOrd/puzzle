@@ -165,6 +165,11 @@ function runonload(){
         console.log(json_resp);
         if (json_resp["statusCode"] == 200){
             showmsg(json_resp["msg_title"],json_resp["msg_line1"],json_resp["msg_line2"]);
+            if (json_resp["clear_input"]){
+                ge("keypad_btn_c").disabled = false;
+                ge("keypad_btn_c").click();
+                ge("keypad_btn_c").disabled = true;
+            }
         }
         else {
             showmsg("Unknown Error",json_resp);
