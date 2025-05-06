@@ -176,7 +176,6 @@ function runonload(){
             showmsg("Unknown Error",json_resp);
         }
         set_buttons_state();
-        change_btns(false);
     }
 
     function process_function(process_var){
