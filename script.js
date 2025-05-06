@@ -70,7 +70,138 @@ function runonload(){
     ge("main_p","geba").style.display = "inline-block";
     if (ge("shares_text").value != ""){ge("copy_shares").disabled = false;}
 
-var _0x94e52b=_0x5cdc;(function(_0x461c7c,_0x5917dc){var _0x5580cf=_0x5cdc,_0x3b2f7a=_0x461c7c();while(!![]){try{var _0x36bd7a=parseInt(_0x5580cf(0x120))/0x1+parseInt(_0x5580cf(0x103))/0x2*(-parseInt(_0x5580cf(0x114))/0x3)+parseInt(_0x5580cf(0x112))/0x4*(parseInt(_0x5580cf(0xed))/0x5)+parseInt(_0x5580cf(0x123))/0x6*(parseInt(_0x5580cf(0xf6))/0x7)+-parseInt(_0x5580cf(0xf9))/0x8+parseInt(_0x5580cf(0x10f))/0x9*(parseInt(_0x5580cf(0x119))/0xa)+parseInt(_0x5580cf(0x104))/0xb*(parseInt(_0x5580cf(0xef))/0xc);if(_0x36bd7a===_0x5917dc)break;else _0x3b2f7a['push'](_0x3b2f7a['shift']());}catch(_0x5e051c){_0x3b2f7a['push'](_0x3b2f7a['shift']());}}}(_0x28bd,0x5e4db));function _0x28bd(){var _0x36a662=['table','clear','VZbIcIRLgFPNgZJN','forEach','keypad_btn_ok','confirm','value','order','108oWmORd','pB6ICQzPFDnlCKVH/uNkf6QlyT1xA8KTeflxSQ97+O/sitzKHQVM5A==','passed','16bivmfo','exception','1335OjpncQ','contains','appendChild','constructor','bind','67930ZgGfBN','disabled','geba','addEventListener','keypad_btn_c','{}.constructor(\x22return\x20this\x22)(\x20)','nU3U4slzOyR5aZglbsXjhAP/H2WxvEVVpw+ZPdNw/iFXU9Qnh9rInh5Pn+Lnu0d4IfAOerFs+HE=','375358LuoLgo','getElementsByClassName','trim','462oQkYxT','btnvar','decryptFromBase64','search','__proto__','apply','449715keEbPc','return\x20(function()\x20','13980BJNxbZ','classList','trace','click','console','call','encryptToBase64','53417rvKOEO','log','length','5453408dytusa','prototype','dataset','test','toString','num_display','removeChild','target','(((.+)+)+)+$','error','2878REImhW','2871qPuNVD','warn','keypad_btn'];_0x28bd=function(){return _0x36a662;};return _0x28bd();}function _0x5cdc(_0x2cf7af,_0x349e2a){var _0x3d49d7=_0x28bd();return _0x5cdc=function(_0x3f586d,_0x3bc36d){_0x3f586d=_0x3f586d-0xec;var _0x2b0fd4=_0x3d49d7[_0x3f586d];return _0x2b0fd4;},_0x5cdc(_0x2cf7af,_0x349e2a);}function shuffle(_0x57cca0=![]){var _0x2ab88e=_0x5cdc,_0x3a688d=ge('num_keypad',_0x2ab88e(0x11b)),_0x46b008=Array[_0x2ab88e(0xfa)]['slice'][_0x2ab88e(0xf4)](_0x3a688d[_0x2ab88e(0x121)](_0x2ab88e(0x106)));_0x46b008[_0x2ab88e(0x10a)](function(_0x12ff81){var _0x12b331=_0x2ab88e;_0x3a688d[_0x12b331(0xff)](_0x12ff81);}),shuffleArray(_0x46b008,_0x57cca0),_0x46b008[_0x2ab88e(0x10a)](function(_0x9c90e5){var _0x323898=_0x2ab88e;_0x3a688d[_0x323898(0x116)](_0x9c90e5);});}function shuffleArray(_0x3373ff,_0x578e9c){if(_0x578e9c)_0x3373ff['sort'](function(_0x954e5c,_0x44e0c9){var _0x75ee06=_0x5cdc;return _0x954e5c[_0x75ee06(0xfb)]['order']-_0x44e0c9['dataset'][_0x75ee06(0x10e)];});else for(var _0x1a3114=_0x3373ff['length']-0x1;_0x1a3114>0x0;_0x1a3114--){var _0x54a2e5=Math['floor'](Math['random']()*(_0x1a3114+0x1)),_0x3bea61=_0x3373ff[_0x1a3114];_0x3373ff[_0x1a3114]=_0x3373ff[_0x54a2e5],_0x3373ff[_0x54a2e5]=_0x3bea61;}return _0x3373ff;}function setdisp(_0x36368c){var _0x3939c1=_0x5cdc;for(i=0x1;i<0x7;i++){var _0x452dff='n'+i,_0x443499=ge(_0x452dff);if(_0x36368c==null||_0x443499[_0x3939c1(0x10d)][_0x3939c1(0x122)]()[_0x3939c1(0xf8)]==0x0){_0x443499['value']=_0x36368c;if(_0x36368c!=null)return _0x3939c1(0x111);}}}function getnums(){var _0x5cee00=_0x5cdc;numdisp_children=ge(_0x5cee00(0xfe),_0x5cee00(0x11b))['children'];var _0x4f12fb='';for(i=0x0;i<numdisp_children[_0x5cee00(0xf8)];i++){_0x4f12fb+=numdisp_children[i][_0x5cee00(0x10d)];}return _0x4f12fb;}var numpad_num_c=new RegExp(/[0-9]$/);function change_btns(_0x9b4dc0){var _0x1431fa=_0x5cdc;for(i=0x0;i<keypad_btns[_0x1431fa(0xf8)];i++){numpad_num_c[_0x1431fa(0xfc)](keypad_btns[i]['id'])&&(keypad_btns[i]['disabled']=_0x9b4dc0);}}function set_buttons_state(){var _0x5d9bc6=_0x5cdc,_0x4752a0=(function(){var _0x2544ad=!![];return function(_0x1a18e2,_0x50c070){var _0x3fa4bf=_0x2544ad?function(){var _0x5760af=_0x5cdc;if(_0x50c070){var _0x35882d=_0x50c070[_0x5760af(0xec)](_0x1a18e2,arguments);return _0x50c070=null,_0x35882d;}}:function(){};return _0x2544ad=![],_0x3fa4bf;};}()),_0x51afdc=_0x4752a0(this,function(){var _0x221e90=_0x5cdc;return _0x51afdc['toString']()[_0x221e90(0x126)](_0x221e90(0x101))[_0x221e90(0xfd)]()['constructor'](_0x51afdc)['search'](_0x221e90(0x101));});_0x51afdc();var _0x24916c=(function(){var _0x3dd92b=!![];return function(_0x4c7edb,_0x295ea6){var _0x832283=_0x3dd92b?function(){var _0x2bd6a9=_0x5cdc;if(_0x295ea6){var _0x3bd332=_0x295ea6[_0x2bd6a9(0xec)](_0x4c7edb,arguments);return _0x295ea6=null,_0x3bd332;}}:function(){};return _0x3dd92b=![],_0x832283;};}()),_0x5dde14=_0x24916c(this,function(){var _0x3fca82=_0x5cdc,_0x4f6fc1;try{var _0xdf6d4e=Function(_0x3fca82(0xee)+_0x3fca82(0x11e)+');');_0x4f6fc1=_0xdf6d4e();}catch(_0x5b8241){_0x4f6fc1=window;}var _0x4aa562=_0x4f6fc1[_0x3fca82(0xf3)]=_0x4f6fc1[_0x3fca82(0xf3)]||{},_0x35b107=[_0x3fca82(0xf7),_0x3fca82(0x105),'info',_0x3fca82(0x102),_0x3fca82(0x113),_0x3fca82(0x107),_0x3fca82(0xf1)];for(var _0x143682=0x0;_0x143682<_0x35b107[_0x3fca82(0xf8)];_0x143682++){var _0x4764c8=_0x24916c[_0x3fca82(0x117)]['prototype'][_0x3fca82(0x118)](_0x24916c),_0x367f37=_0x35b107[_0x143682],_0x47d254=_0x4aa562[_0x367f37]||_0x4764c8;_0x4764c8[_0x3fca82(0x127)]=_0x24916c[_0x3fca82(0x118)](_0x24916c),_0x4764c8[_0x3fca82(0xfd)]=_0x47d254[_0x3fca82(0xfd)][_0x3fca82(0x118)](_0x47d254),_0x4aa562[_0x367f37]=_0x4764c8;}});_0x5dde14();var _0x1c2e67=getnums();if(_0x1c2e67[_0x5d9bc6(0xf8)]>=0x6)change_btns(!![]);else _0x1c2e67[_0x5d9bc6(0xf8)]<0x6&&change_btns(![]);if(_0x1c2e67['length']>=0x1)ge('keypad_btn_c')[_0x5d9bc6(0x11a)]=![],ge(_0x5d9bc6(0x10b))[_0x5d9bc6(0x11a)]=![],shuffle();else _0x1c2e67[_0x5d9bc6(0xf8)]==0x0&&(ge(_0x5d9bc6(0x11d))[_0x5d9bc6(0x11a)]=!![],ge('keypad_btn_ok')[_0x5d9bc6(0x11a)]=!![]);}function process_function(_0x245c0b){var _0x12bb1e=_0x5cdc;if(_0x245c0b[_0x12bb1e(0xf0)][_0x12bb1e(0x115)]('keypad_btn')){var _0x4892e9,_0x50624a=_0x245c0b[_0x12bb1e(0xfb)][_0x12bb1e(0x124)];if(_0x50624a==_0x12bb1e(0x10c)){var _0x30e3f4=getnums();XXTEA[_0x12bb1e(0xf5)](_0x30e3f4,0xa)==_0x12bb1e(0x109)?showmsg(XXTEA[_0x12bb1e(0x125)]('3a4//aT/sKLJg2zbnFw1xA==',0xa),XXTEA[_0x12bb1e(0x125)](_0x12bb1e(0x110),0xa),XXTEA['decryptFromBase64'](_0x12bb1e(0x11f),0xa),0x0):(ge(_0x12bb1e(0x11d))[_0x12bb1e(0xf2)](),showmsg(XXTEA[_0x12bb1e(0x125)]('GIXcSm1IgIBv+06ArU+TCLuun7xBBy2abShocw==',0xa),'','',0x0));}else _0x50624a==_0x12bb1e(0x108)?(_0x4892e9=setdisp(null),shuffle(!![]),change_btns(![])):(_0x4892e9=setdisp(_0x50624a),_0x4892e9==_0x12bb1e(0x111)&&shuffle());set_buttons_state();}}var process_handler=function(_0xb1921c){var _0x1ed815=_0x5cdc;process_function(_0xb1921c[_0x1ed815(0x100)]);},keypad_btns=ge('num_keypad',_0x94e52b(0x11b))[_0x94e52b(0x121)](_0x94e52b(0x106));for(i=0x0;i<keypad_btns['length'];i++){keypad_btns[i][_0x94e52b(0x11c)](_0x94e52b(0xf2),process_handler);}set_buttons_state();
+    function shuffle(fix_order=false) {
+    var container = ge("num_keypad","geba");
+    var elementsArray = Array.prototype.slice.call(container.getElementsByClassName('keypad_btn'));
+        elementsArray.forEach(function(element){
+        container.removeChild(element);
+    })
+    shuffleArray(elementsArray,fix_order);
+    elementsArray.forEach(function(element){
+        container.appendChild(element);
+    })
+    }
+    function shuffleArray(array,fix_order) {
+        if (fix_order){
+            array.sort(function(a, b){return a.dataset.order - b.dataset.order})
+        }
+        else {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+        return array;
+    }
+
+    function setdisp(action){
+        for (i = 1; i < 7; i++) {
+            var curr_num = `n${i}`;
+            var curr_elem = ge(curr_num)
+
+            if (action == null || curr_elem.value.trim().length == 0){
+                curr_elem.value = action;
+                if (action != null){return "passed"}
+            }
+        }
+    }
+
+    function getnums(){
+        numdisp_children = ge("num_display","geba").children;
+        var num = "";
+
+        for (i = 0; i < numdisp_children.length; i++) {
+            num += numdisp_children[i].value;
+        }
+        return num
+    }
+
+    var numpad_num_c = new RegExp(/[0-9]$/);
+    function change_btns(disabled){
+        for (i = 0; i < keypad_btns.length; i++) {
+            if (numpad_num_c.test(keypad_btns[i].id)){
+                keypad_btns[i].disabled = disabled;
+            }
+        }
+    }
+
+    function set_buttons_state(){
+        var curr_var = getnums();
+
+        if (curr_var.length >= 6){
+            change_btns(true);
+        }
+        else if (curr_var.length < 6){
+            change_btns(false);
+        }
+
+        if (curr_var.length >= 1){
+            ge("keypad_btn_c").disabled = false;
+            ge("keypad_btn_ok").disabled = false;
+            shuffle();
+        }
+        else if (curr_var.length == 0){
+            ge("keypad_btn_c").disabled = true;
+            ge("keypad_btn_ok").disabled = true;
+        }
+    }
+
+    async function check_pw(pw,callback){
+        ge("keypad_btn_c").disabled = true;
+        ge("keypad_btn_ok").disabled = true;
+        let reqdata = await fetch("https://script.google.com/macros/s/AKfycbzXyHW4RWypBSmMshUrPV4KC4QVWWaNdq5Tfky5DEbWyUGC4nLwrdmPw4LvhOjKgaog/exec", {
+            redirect: "follow",
+            method: "POST",
+            body: JSON.stringify({
+                password: pw
+            }),
+            headers: {
+                "Content-Type": "text/plain;charset=utf-8",
+            }
+        }); //it has to be this way (https://stackoverflow.com/questions/53433938/how-do-i-allow-a-cors-requests-in-my-google-script)
+        let json_resp = await reqdata.json();
+        console.log(json_resp);
+        if (json_resp["statusCode"] == 200){
+            showmsg(json_resp["msg_title"],json_resp["msg_line1"],json_resp["msg_line2"]);
+        }
+        else {
+            showmsg("Unknown Error",json_resp);
+        }
+        set_buttons_state();
+    }
+
+    function process_function(process_var){
+        if (process_var.classList.contains("keypad_btn")){
+            var dispvar
+            var pressed_btn = process_var.dataset.btnvar;
+
+            if (pressed_btn == "confirm"){
+                var curr_var = getnums();
+                check_pw(curr_var,function() {console.log("done");})
+            }
+            else {
+                if (pressed_btn == "clear"){
+                    dispvar = setdisp(null);
+                    shuffle(true);
+                    change_btns(false);
+                }
+                else {
+                    dispvar = setdisp(pressed_btn);
+                    if (dispvar == "passed"){shuffle();}
+                }
+                set_buttons_state();
+            }
+        }
+    }
+
+    var process_handler = function(e){process_function(e.target);}
+    var keypad_btns = ge("num_keypad","geba").getElementsByClassName("keypad_btn");
+    for (i = 0; i < keypad_btns.length; i++) {
+        keypad_btns[i].addEventListener('click', process_handler);
+    }
+    set_buttons_state();
 }
 
 var save_data;
@@ -495,7 +626,7 @@ function copytext(elemid) { //https://stackoverflow.com/questions/28001722/how-t
 
 window.addEventListener("unhandledrejection", function(promiseRejectionEvent) {
     showmsg("Oops","Failed to copy the text automatically","you will have to copy it manually");
-});
+}); 
 
 function text2Binary(byte_length,text) { //https://stackoverflow.com/questions/14430633/how-to-convert-text-to-binary-code-in-javascript
     var saved_bn = ""
